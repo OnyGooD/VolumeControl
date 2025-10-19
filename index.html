@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="background-liquid">
+        <div class="liquid-blob"></div>
+        <div class="liquid-blob"></div>
+        <div class="liquid-blob"></div>
+        <div class="liquid-blob"></div>
+    </div>
+
+    <div class="glass-container">
+        <h1>Music Player</h1>
+
+        <img src="Better Place.jpg" id="artwork">
+        
+        <div class="player">
+            <audio id="audioPlayer" src="betterplace.mp3"></audio>
+            
+            <div class="controls">
+                <button id="playBtn">▶</button>
+            </div>
+
+            <div class="volume-container">
+                <button id="volumeDown">🔉</button>
+                <div class="volume-display" id="volumeDisplay">50%</div>
+                <button id="volumeUp">🔊</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
